@@ -1,0 +1,13 @@
+version: "1.0"
+info:
+  scaffold: testfs
+  model: int-scaffold
+services:
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
+- serviceName: edge.siqapsurgit.integrations:testfs
+  packages:
+  - name: EdgeSiqapsurgit
+    version: "1.0"
